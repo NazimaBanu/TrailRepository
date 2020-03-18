@@ -1,0 +1,74 @@
+[
+  {
+    "source": "^Open Chrome Driver and start the application$",
+    "steps": [
+      {
+        "name": "Open Chrome Driver and start the application",
+        "aggregatedDurations": {
+          "average": 8.663425401,
+          "median": 8.663425401
+        },
+        "durations": [
+          {
+            "duration": 8.663425401,
+            "location": "Facebookmultiplescenario.feature:25"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I enter valid user name and password$",
+    "steps": [
+      {
+        "name": "I enter valid user name and password",
+        "aggregatedDurations": {
+          "average": 0.6458279,
+          "median": 0.6458279
+        },
+        "durations": [
+          {
+            "duration": 0.6458279,
+            "location": "Facebookmultiplescenario.feature:27"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^User should be able to login successfully$",
+    "steps": [
+      {
+        "name": "User should be able to login successfully",
+        "aggregatedDurations": {
+          "average": 0.1368027,
+          "median": 0.1368027
+        },
+        "durations": [
+          {
+            "duration": 0.1368027,
+            "location": "Facebookmultiplescenario.feature:29"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Application is closed\\.$",
+    "steps": [
+      {
+        "name": "Application is closed.",
+        "aggregatedDurations": {
+          "average": 1.2163711,
+          "median": 1.2163711
+        },
+        "durations": [
+          {
+            "duration": 1.2163711,
+            "location": "Facebookmultiplescenario.feature:30"
+          }
+        ]
+      }
+    ]
+  }
+]
