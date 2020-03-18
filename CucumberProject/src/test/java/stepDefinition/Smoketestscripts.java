@@ -11,14 +11,11 @@ import cucumber.api.java.en.When;
 
 public class Smoketestscripts {
 	WebDriver driver=new ChromeDriver();
-	
-	
 	@Given("^Open Chrome Driver and start the application$")
 	public void open_Chrome_Driver_and_start_the_application() throws Throwable {
 	    // Write code here that turns the phrase above into concrete actions
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\nazim\\workspace3\\CucumberProject\\chromedriver.exe");
 		driver.get("https://www.facebook.com/");
-	 
 	}
 
 	@When("^I enter valid user name and password$")
